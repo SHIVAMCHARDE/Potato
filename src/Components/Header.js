@@ -1,6 +1,5 @@
 import React from "react";
 import logos from "../Assets/logos.png";
-import { AiOutlineSearch } from "react-icons/ai";
 import { MdMessage } from "react-icons/md";
 import { IoNotifications } from "react-icons/io5";
 import { FaCartShopping } from "react-icons/fa6";
@@ -12,7 +11,7 @@ export default function Header() {
     <div className=" NavMain flex flex-row items-center gap-[3%] bg-teal-600 justify-around  ">
       <div className="flex flex-row items-center">
         <div className="imgss h-[100%] w-[23%] p-[3px] ">
-          <img src={companylogo} alt="" className="HeaderImg m-[0.5%]" />
+          <img src={companylogo} alt="img" className="HeaderImg m-[0.5%]" />
         </div>
         <div className="CompName">
           <div>

@@ -16,7 +16,7 @@ export default function Footer() {
         <div>
 
       <div>
-        <img src={log} alt="" className='aa' />
+        <img src={log} alt="img" className='aa' />
       </div>
       <div> <h1 className='font-bold text-2xl'>PUTATOE</h1>
       <h3>version 12.0.0</h3></div>
@@ -64,7 +64,7 @@ export default function Footer() {
     <p>GET OUR APP</p>
     </div>
     <div>
-    <img src={plays} className='w-[43%] ' />
+    <img src={plays} alt="img" className='w-[43%] ' />
 
     </div>
    
